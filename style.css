@@ -9,10 +9,50 @@ body {
     background: linear-gradient(to right, #57ffb6, #70bdca);;
 }
 
-.background {
-    background-color: #ffff;
+.title {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #555555;
+    bottom: -21.88%;
 }
 
-.input[name="create"] {
+.contente {
+    color: #555555;
+    line-height: 31.5px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Inter';
+    font-style: normal;
+    top: -1.3%;
+    bottom: 19.48%;
+}
+
+input[type="submit"] {
+    background: #028A3D;
+    padding-right: 25px;
+    padding-left: 25px;
+    height: 40px;
+    border: none;
     color: #ffff;
+}
+
+.back {
+    color: red;
+    display: block;
+}
+
+.backs {
+    color: red;
+    display: block;
+}
+
+.invisibility {
+    display: none;
+}
+
+.visibility {
+    display: block;
 }
